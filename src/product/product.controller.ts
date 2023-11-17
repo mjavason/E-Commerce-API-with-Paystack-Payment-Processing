@@ -11,7 +11,6 @@ import {
   NotFoundException,
   UseGuards,
   Request,
-  Response,
 } from '@nestjs/common';
 import { ProductService } from './product.service';
 import {

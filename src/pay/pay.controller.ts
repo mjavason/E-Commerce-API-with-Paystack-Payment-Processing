@@ -5,8 +5,6 @@ import {
   HttpStatus,
   InternalServerErrorException,
   Post,
-  Req,
-  UseGuards,
 } from '@nestjs/common';
 import { PayService } from './pay.service';
 import {
@@ -23,7 +21,6 @@ import { SuccessResponse } from 'src/helpers/response.helper';
 import { IResponseData } from 'src/interfaces/response.interface';
 import { InitializePaymentDTO } from './pay.dto';
 import { MESSAGES } from '../constants';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 import { ResponseDto } from 'src/dto/response.dto';
 
 @Controller('pay')

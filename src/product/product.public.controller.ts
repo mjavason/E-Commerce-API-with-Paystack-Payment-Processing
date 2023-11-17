@@ -21,11 +21,7 @@ import { SuccessResponse } from 'src/helpers/response.helper';
 import { IProduct } from './product.interface';
 import { IResponseData } from 'src/interfaces/response.interface';
 import { ResponseDto } from 'src/dto/response.dto';
-import {
-  FindProductDto,
-
-  GetAllProductsDto,
-} from './product.dto';
+import { FindProductDto, GetAllProductsDto } from './product.dto';
 
 @Controller('product')
 @ApiTags('Product')

@@ -44,9 +44,8 @@ import { ResponseDto } from 'src/dto/response.dto';
 export class AuthController {
   constructor(
     private authService: AuthService,
-    private userService: UserService,
-  ) // private mailTemplateService: MailTemplateService,
-  {}
+    private userService: UserService, // private mailTemplateService: MailTemplateService,
+  ) {}
 
   @UseGuards(LocalAuthGuard)
   @Post('/login')

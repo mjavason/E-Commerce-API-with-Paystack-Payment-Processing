@@ -19,8 +19,10 @@ export const MAIL_ADDRESS = process.env.MAIL_ADDRESS || 'michaelorji@mail.com';
 //Paystack keys and configs
 export const PAYSTACK_SECRET_KEY = process.env.PAYSTACK_SECRET_KEY || 12345;
 export const PAYSTACK_PUBLIC_KEY = process.env.PAYSTACK_PUBLIC_KEY || 12345;
-export const PAYSTACK_TEST_PUBLIC_KEY =  process.env.PAYSTACK_TEST_PUBLIC_KEY || 12345;
-export const PAYSTACK_TEST_SECRET_KEY =  process.env.PAYSTACK_TEST_SECRET_KEY || 12345;
+export const PAYSTACK_TEST_PUBLIC_KEY =
+  process.env.PAYSTACK_TEST_PUBLIC_KEY || 12345;
+export const PAYSTACK_TEST_SECRET_KEY =
+  process.env.PAYSTACK_TEST_SECRET_KEY || 12345;
 
 export const MESSAGES = {
   ACCESS_TOKEN_ERROR_RESPONSE: 'Access token is invalid. Please log in again',
